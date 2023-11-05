@@ -1,0 +1,61 @@
+.summary-cont {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+.head {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .head {
+    font-size: 32px;
+  }
+}
+.label {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 24px;
+  }
+}
+.para {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 16px;
+  }
+}
+.btn10 {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  cursor: pointer;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .d-lg-none {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .d-sm-none {
+    display: none;
+  }
+}
